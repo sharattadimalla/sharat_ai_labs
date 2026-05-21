@@ -1,0 +1,16 @@
+term,definition,domain,examples
+Order ID,Unique identifier assigned to each customer order placed through the platform.,Orders,ORD-10021
+Customer Email,"The primary email address associated with a customer's account, used for order notifications and account management.",Customers,jane@example.com
+Product SKU,Stock Keeping Unit — a unique alphanumeric code assigned to each product variant for inventory tracking.,Catalog,SKU-9981-BLU
+Payment Amount,"The total monetary value charged to the customer for a transaction, inclusive of taxes and fees.",Payments,249.99
+Shipment Date,The date on which an order is dispatched from the fulfillment center to the carrier.,Logistics,2024-03-15
+Discount Code,An alphanumeric promotional code applied by a customer to receive a price reduction on their order.,Promotions,SAVE20
+Return Reason,"The customer-provided explanation for returning a product, used to categorize and analyze return trends.",Returns,Defective product
+Order Status,"The current fulfillment state of an order (e.g., Pending, Shipped, Delivered, Cancelled).",Orders,Shipped
+Customer ID,Unique identifier assigned to each customer account in the CRM system.,Customers,C-001
+Order Total,"The final monetary amount charged to the customer for a completed order, inclusive of taxes and discounts.",Orders,499.95
+Billing Address,The customer's registered address used for payment verification and invoicing.,Payments,"123 Main St, Springfield"
+Shipping Address,The destination address to which an order is delivered.,Logistics,"456 Oak Ave, Portland"
+Product Category,A hierarchical classification used to group products of the same type within the catalog.,Catalog,Electronics > Laptops
+Payment Method,"The financial instrument or service used by a customer to complete a transaction (e.g., credit card, PayPal, bank transfer).",Payments,Credit Card
+Refund Amount,The monetary value returned to the customer following a return or cancellation.,Returns,89.00

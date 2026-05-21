@@ -11,7 +11,7 @@ All commands must be run from the `sensitive_data_classifier/` directory (the Py
 pip install -r requirements.txt
 
 # Run the sample script
-python sample.py
+python demo.py
 
 # Classify programmatically
 python -c "

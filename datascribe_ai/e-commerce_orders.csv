@@ -1,0 +1,9 @@
+name,type,sample_value,ai_generated_description,ai_rationale,ai_confidence_score
+order_id,string,"ORD-10021, ORD-10022",A unique identifier assigned to each customer order placed through the platform within the Orders domain.,Field name 'order_id' directly matches glossary term 'Order ID'. Sample values confirm an alphanumeric format consistent with a system-assigned identifier for orders.,0.95
+customer_email,string,jane@example.com,The primary email address associated with each customer’s account used for notifications and management purposes.,Field name 'customer_email' is directly related to the glossary term 'Customer Email'.,0.85
+product_sku,string,"SKU-9981-BLU, SKU-0042-RED",,Skipped — no relevant glossary coverage,
+payment_amount,decimal,"249.99, 89.00","The total monetary value charged to the customer for a completed transaction, inclusive of taxes and any applicable fees.",Field name 'payment_amount' is directly related to the glossary term 'Payment Amount'. Sample values confirm it represents a monetary field.,0.95
+ship_date,date,2024-03-15,The date on which an order is dispatched from the fulfillment center and handed to the carrier for delivery.,Field name 'ship_date' maps directly to glossary term 'Shipment Date'.,0.95
+discount_code,string,"SAVE20, WELCOME10",An alphanumeric promotional code utilized by customers to obtain a discount on their order within the Promotions domain.,Field name 'discount_code' directly matches the glossary term 'Discount Code'.,0.95
+return_reason,string,"Defective product, Wrong size",,Skipped — no relevant glossary coverage,
+internal_flag,boolean,"true, false",,Skipped — no relevant glossary coverage,

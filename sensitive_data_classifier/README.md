@@ -65,7 +65,7 @@ The engine runs each `DataElement` through the graph independently and returns r
 | **Graph nodes** | `graph/nodes.py` | Three LangGraph node functions: `retrieve_tags`, `classify`, `evaluate` |
 | **Graph edges** | `graph/edges.py` | `route_after_evaluate` — conditional routing function (extension point for adding human-review or re-classify branches) |
 | **Pipeline** | `graph/pipeline.py` | Compiles the `StateGraph` once (singleton); exposes `run_element()` and `run_dataset()` |
-| **Sample script** | `sample.py` | End-to-end demo with 9 mixed data elements |
+| **Sample script** | `demo.py` | End-to-end demo with 9 mixed data elements |
 
 ---
 
@@ -88,7 +88,7 @@ cd sensitive_data_classifier
 cp .env.example .env        # configure OLLAMA_MODEL and OLLAMA_HOST
 pip install -r requirements.txt
 ollama pull qwen2.5:3b
-python sample.py
+python demo.py
 ```
 
 To classify a different model, set `OLLAMA_MODEL` in `.env` to any model available in your Ollama instance.
